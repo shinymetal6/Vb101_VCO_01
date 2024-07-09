@@ -1,0 +1,7 @@
+Cmsis dsp instructions for m7
+1) Copy A_os/CmsisLibraries/DSP in Drivers/CMSIS
+2) Add arm_cortexM7lfdp_math in linker libs ( Tool settings -> Linker -> GCC libraries )
+3) Add ../Drivers/CMSIS/DSP/Lib/GCC in linker libraries search path ( Tool settings -> Linker -> Libraries Search Path )
+
+Interesting links
+https://github.com/YetAnotherElectronicsChannel/STM32_Calculating_IIR_Parameters/blob/master/code/Src/main.c
